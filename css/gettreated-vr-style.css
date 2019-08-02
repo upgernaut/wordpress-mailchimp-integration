@@ -1,0 +1,331 @@
+/**/
+/*Mobile*/
+/**/
+
+.vr_form_container {
+	padding-bottom: 60px;
+	background: white;
+}
+
+.vr_thankyou, .vr_failure {
+	display: none;
+}
+
+.vr_form_footer_block {
+	padding: 20px;
+	background: #00b4dd;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;	
+	margin: 0px 20px;
+	text-align: center;
+}
+
+.vr_formpartHandlers {
+	padding: 0px;
+}
+
+.vr_formButtonHandler {
+	padding: 0px;
+	margin-top: 15px;
+}
+
+.vr_form_blog {
+	display: inline-block;
+	width: 100%;
+}
+
+.vr_form_blog input[type=email],.vr_form_blog button[type=submit] {
+	width: 100%;
+	outline: 0px solid transparent;
+}
+
+.vr_form_blog input[type=email] {
+	background: transparent;
+	font-size: 18px;
+	border: 1px solid white;
+	padding: 10px 30px;
+	height: 40px;
+	color: white;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.vr_form_blog input[type=email]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.vr_form_blog input[type=email]::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.vr_form_blog input[type=email]:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.vr_form_blog input[type=email]:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+.vr_form_blog button[type=submit] {
+	font-size: 24px; 
+	text-transform: uppercase;
+	background: white;
+	color: #0084a8;
+	border: none;
+	padding: 0px;
+	outline: 0px;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.vrMessage {
+	color: white;
+}
+
+/* Modal blog subscribe - mobile */
+.subscribeBlogModal {
+	width: 100%;
+	padding: 30px 20px;
+	background: rgba(17,17,20,0.6);
+	border: 1px solid #00b5de;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.subscribeBlogModalTitle {
+	font-size: 22px;
+	color: white;
+}
+
+.subscribeBlogModalInput input[type=email],.subscribeBlogModalButton button[type=submit] {
+	outline: 0px solid transparent;
+}
+
+
+.subscribeBlogModalInput input[type=email] {
+	background: transparent;
+	font-size: 18px;
+	border: 1px solid white;
+	padding: 10px 30px;
+	height: 40px;
+	color: white;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	width: 100%;
+}
+
+.subscribeBlogModalInput input[type=email]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+.subscribeBlogModalInput input[type=email]::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+.subscribeBlogModalInput input[type=email]:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+.subscribeBlogModalInput input[type=email]:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}	
+
+.subscribeBlogModalButton, .subscribeBlogModalInput {
+	margin-top: 15px;
+}
+
+.subscribeBlogModalButton button[type=submit] {
+	font-size: 22px; 
+	text-transform: uppercase;
+	background: white;
+	color: #0084a8;
+	border: none;
+	padding: 0px;
+	outline: 0px;
+	text-align: center;
+	height: 40px;
+	width: 200px;
+	
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}	
+
+.subscribeBlogModalThank, .subscribeBlogModalFail  {
+	display: none;
+	font-size: 32px;
+}
+
+/* Modal close button styles */
+.subscribeModalBlog .close {
+    position: absolute;
+    right: 40px;
+    top: 26px;
+    color: white;
+	font-size: 30px; 
+	text-shadow: none;
+	outline: none;
+}
+
+/**/
+/*Bigger than mobile*/
+/**/
+@media (min-width: 640px) {
+	
+	.vr_form_blog {
+		display: inline-block;
+		width: auto;
+		vertical-align: top;
+	}	
+	
+	.vr_form_blog input[type=email] {
+		
+		-webkit-border-top-right-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+		-moz-border-radius-topright: 0px;
+		-moz-border-radius-bottomright: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;	
+	}
+	
+	.vr_form_blog button[type=submit] {
+		font-size: 24px; 
+		text-transform: uppercase;
+		background: white;
+		color: #0084a8;
+		border: none;
+		padding: 0px;
+		outline: 0px;
+		text-align: center;
+		height: 40px;
+		width: 100%;
+		
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-moz-border-radius-topleft: 0px;
+		-moz-border-radius-bottomleft: 0px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;	
+	}	
+	
+
+	
+	.vr_form_footer_block {
+		border-radius: 50px;
+		padding: 20px 0px;
+	}
+	
+	.vr_formpartHandlers {
+		width: 380px;
+		float: left;
+	}
+	
+	.vr_formButtonHandler {
+	    width: 190px;		
+		float: left;
+		padding: 0px 10px;
+		margin-top: 0px;
+	}
+	
+	/* Modal blog subscribe - mobile */
+	
+	.subscribeBlogModalContent {
+		margin-top: 20px;
+		display: inline-block;
+		width: auto;
+		vertical-align: top;		
+	}
+	
+	.subscribeBlogModalTitle {
+		font-size: 32px;
+	}
+	
+	.subscribeBlogModalInput {
+		width: 320px;
+		float: left;
+		margin-top: 0px;
+	}
+	
+	
+	.subscribeBlogModalInput input[type=email] {
+		
+		-webkit-border-top-right-radius: 0px;
+		-webkit-border-bottom-right-radius: 0px;
+		-moz-border-radius-topright: 0px;
+		-moz-border-radius-bottomright: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;	
+	}
+	
+	.subscribeBlogModalButton {
+	    width: 190px;		
+		float: left;
+		padding: 0px 10px;
+		margin-top: 0px;
+	}	
+	
+	.subscribeBlogModalButton button[type=submit] {
+		font-size: 24px; 
+		text-transform: uppercase;
+		background: white;
+		color: #0084a8;
+		border: none;
+		padding: 0px;
+		outline: 0px;
+		text-align: center;
+		height: 40px;
+		width: 100%;
+		
+		-webkit-border-top-left-radius: 0px;
+		-webkit-border-bottom-left-radius: 0px;
+		-moz-border-radius-topleft: 0px;
+		-moz-border-radius-bottomleft: 0px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;	
+	}		
+
+
+}
+
+@media (min-width: 870px) {
+	
+	.vr_form_footer_block {
+		width: 830px;
+		margin: 0 auto;
+	}
+	
+	.subscribeBlogModal {
+		width: 100%;	
+	}
+	
+
+	.subscribeModalBlog .modal-dialog {
+		width: 830px;
+		margin: 0 auto;
+	}	
+}
+
+/*  */
+/* Modal vertical center style */
+/*  */
+
+.subscribeModalBlog.modal {
+	text-align: center;
+}
+
+.subscribeModalBlog.modal:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: " ";
+	height: 100%;
+}
+
+.subscribeModalBlog .modal-dialog {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;  
+	padding: 20px;
+}
